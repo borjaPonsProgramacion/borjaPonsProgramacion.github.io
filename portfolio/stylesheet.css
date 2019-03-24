@@ -1,0 +1,455 @@
+
+html, body{
+
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+body {
+margin: 0;
+font-family: 'Special Elite', cursive;
+
+}
+
+
+  header {
+
+
+    width: 100%;
+    margin: auto;
+    height: 22%;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    margin: auto;
+
+    height: 10%;
+
+  }
+
+  #BGBarra {
+
+  background-image: url(cinta.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+  }
+
+  #barra {
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 50%;
+    margin: auto;
+
+    height: 100%;
+
+  }
+
+  #caja1 {
+    text-align: center;
+
+    width: 30%;
+    height: 65%;
+    border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4px;
+  font-size: 0.9vw;
+
+  }
+
+  #caja2{
+  text-align: center;
+
+
+  width: 30%;
+  height: 65%;
+  border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 4px;
+   font-size: 0.9vw;
+
+  }
+
+  #caja3 {
+  text-align: center;
+
+  width: 30%;
+    height: 65%;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 4px;
+   font-size: 0.9vw;
+
+  }
+
+  section {
+
+        background-color: white;
+
+        display: block;
+
+        width: 100%;
+
+        height: 80%;
+
+  }
+
+
+/* INDEX */
+
+  #fotoBorde {
+
+
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  width: 20% ;
+  height: 50%;
+
+  }
+
+   #foto {
+
+  background-color: lightgrey;
+
+  height: 95%;
+  width: 95%;
+
+ object-fit: contain;
+
+  }
+
+  #informacion {
+    background-color: rgb(194, 194, 194, 0.5);
+    height: 30%;
+    width:65%;
+    margin:auto;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 3%;
+
+    font-size: 2px;
+    font-size: 1vw;
+
+    margin-top: 7%;
+
+  }
+
+  #contact {
+
+  margin-top: 5%;
+  margin-left: 35%;
+
+  }
+
+
+/* INDEX */
+
+/*DEMOREEL*/
+
+  #BP {
+
+    position: relative;
+    font-size: 90px;
+    justify-content: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 4px;
+    font-size: 5.3vw;
+  }
+
+
+#CA {
+
+  position: absolute;
+  top: 12%;
+  justify-content: center;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 4px;
+  font-size: 1.7vw;
+
+}
+
+#sectionDemoreel {
+
+
+
+background-color: white;
+height: 80%;
+width: 100%;
+
+
+}
+
+#trabajosDemoreel {
+
+
+
+height: 60%;
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 15%;
+
+
+margin-top: 5%;
+
+  position: relative;
+	padding-bottom: 20%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+
+
+}
+
+#trabajosDemoreel iframe{
+
+  position: absolute;
+  	top: 0%;
+  	left: auto;
+  	width: 150%;
+  	height: 150%;
+
+}
+
+iframe { border: none; }
+
+
+#DescripcionDR {
+
+width: 70%;
+height: 15%;
+background-color: rgb(194, 194, 194, 0.5);
+margin:auto;
+padding: 35px;
+font-size: 20px;
+border-radius: 20px;
+
+margin-top: 15%;
+
+font-size: 4px;
+font-size: 1.2vw;
+
+}
+
+/*DEMOREEL*/
+
+
+
+/*PERSONAL WORK */
+
+
+#sectionPW {
+
+background-color: black
+
+height:50%;
+width:100%;
+
+
+
+}
+
+#arriba {
+display:flex;
+justify-content: space-around;
+align-items: center;
+
+height:35%;
+width:85%;
+
+margin-top:5%;
+margin-left: 4%
+
+}
+
+#abajo {
+
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height:50%;
+  width:60%;
+
+  margin-left: 16%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+
+
+}
+
+#trabajo1 iframe{
+
+
+  width: 135%
+
+
+}
+
+
+
+#trabajo2 iframe{
+
+  width: 135%
+
+
+}
+
+
+#trabajo3 iframe{
+
+  width: 135%
+
+
+}
+
+
+#trabajo4 iframe{
+
+  width: 135%
+
+
+}
+
+
+
+#trabajo5 iframe{
+
+  width: 135%
+
+}
+
+
+/*PERSONAL WORK */
+
+
+footer {
+
+      width: 100%;
+      height: 24%;
+
+  }
+
+
+
+  #socialMedia {
+
+    height: 80%;
+    width:25%;
+    background-color: rgb(194, 194, 194, 0.5);
+    border-radius: 10px;
+
+
+    margin:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1.5%;
+    margin-top: 9%;
+
+
+  }
+
+
+  #followMe {
+    height: 40%;
+    width:60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #000000;
+
+    font-size: 4px;
+    font-size: 0.9vw;
+
+  }
+
+  #iconos {
+
+    height: 50%;
+    width:80%;
+    border-radius: 10px;
+
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+  }
+
+
+
+
+  #IG {
+
+    height: 55%;
+    width:15%;
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  #IN {
+
+    height: 55%;
+    width:15%;
+
+  }
+
+
+  #VM {
+
+    height: 55%;
+    width:15%;
+
+
+  }
